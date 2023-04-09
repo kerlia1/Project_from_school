@@ -61,7 +61,7 @@ class Data:
         return txt_result
 
     # Кол-во аниме по жанру
-    def count_genre(self):
+    def __count_genre(self):
         tmp_dict: dict = {}
         txt_result = ""
         for _,data in self.json_data.items():
